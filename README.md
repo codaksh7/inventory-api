@@ -50,7 +50,7 @@ Body:
 
 ### ➤ Decrease Stock  
 POST  
-http://localhost:5000/products/ <productId> /decrease
+http://localhost:5000/products/ < productId > /decrease
 
 Body:
 {
@@ -60,12 +60,12 @@ Body:
 
 ### ➤ Get Product Details  
 GET  
-http://localhost:5000/products/ <productId>
+http://localhost:5000/products/ < productId >
 
 
 ### ➤ Get Product Transactions  
 GET  
-http://localhost:5000/products/ <productId> /transactions
+http://localhost:5000/products/ < productId > /transactions
 
 
 
@@ -75,5 +75,6 @@ http://localhost:5000/products/ <productId> /transactions
 - `quantity` must be positive  
 - `.env` and `node_modules` are intentionally excluded from GitHub  
 - API auto-prevents negative stock
+
 
 
