@@ -40,7 +40,7 @@ Body:
 
 ### ➤ Increase Stock  
 POST
-http://localhost:5000/products/ <productId> /increase
+http://localhost:5000/products/ < productId > /increase
 
 Body:
 {
@@ -75,4 +75,5 @@ http://localhost:5000/products/ <productId> /transactions
 - `quantity` must be positive  
 - `.env` and `node_modules` are intentionally excluded from GitHub  
 - API auto-prevents negative stock
+
 
